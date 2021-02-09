@@ -52,6 +52,10 @@ const cardArray=[
         img:'images/milkshake.png'
     }
 ]
+//global variables initialization
+let cardstorage=[] //stores details of cards chosen currently by user
+let cardsWon=[] //stores all cards won
+let counter=0 //counts number of times user makes a wrong match
 //flips the card
 const changeBackground=async(img_address)=>{
     let f0=cardstorage[0].cardnum

@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <head>
+            <title>The Memory Game</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <h1>Memory Game</h1>
+        <h2>Score: <span id="score">0</span></h2>
+        <div id="gamebox">
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" ></div>
+            <div class="sq" "></div>
+            <div class="sq" "></div>
+        </div>
+        <h1 id="winmessage"></h1>
+        <button id="newgame" onclick="newgame()">New game</button>
+        <div id="rules">
+        <h4>## Rules of Memory Game</h4>
+        <p>
+            - You will start by flipping over one card<br>
+            - If the next card you flip matches, you get +50 to your score<br>
+            - These cards then disspear<br>
+            - If the next card you flip does not match or you select same card twice,<br>&nbsp &nbspthe cards flip back and your score reduces by 20 or 40 depending on the number of cards left<br>
+            - The game continues until you match all the cards on the board
+            </p>
+        </div>
+        <br><br><br>
+        <footer>Copyright 2021 by papnai_dev</footer>
+        <script src="app.js"></script>
+    </body>
+</html>

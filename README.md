@@ -1,4 +1,6 @@
-# memory-game
+# visit hosted site-
+https://focused-murdock-0a06a6.netlify.app
+
 # Rules-
 - You will start by flipping over one card<br>
 - If the next card you flip matches, you get +50 to your score<br>

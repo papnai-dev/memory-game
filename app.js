@@ -83,12 +83,7 @@ const changeScore=()=>{
     else{
         k=20
     }
-    if(((cardsWon.length/2)*50)-(counter*k)<0){
-        DOMscore.textContent=0
-    }
-    else{
         DOMscore.textContent=((cardsWon.length/2)*50)-(counter*k)
-    }
 }
 
 //controls game working
